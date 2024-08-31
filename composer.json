@@ -1,0 +1,19 @@
+{
+    "name": "carol/spotify-playlist-mood",
+    "description": "API spotify",
+    "type": "projeto",
+    "autoload": {
+        "psr-4": {
+            "Carol\\SpotifyPlaylistMood\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CarolineALeal",
+            "email": "carol_avelino12@hotmail.com"
+        }
+    ],
+    "require": {
+        "jwilsson/spotify-web-api-php": "^6.1"
+    }
+}
